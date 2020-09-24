@@ -1,0 +1,8 @@
+Sæt alle body tags til samme id id="body_id"
+
+#body_id {
+position: relative;margin: 0 auto;
+}
+
+Og i første id tag, inkluder:
+background:#f5f9ea;
