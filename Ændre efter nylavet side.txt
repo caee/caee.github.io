@@ -6,3 +6,6 @@ position: relative;margin: 0 auto;
 
 Og i første id tag, inkluder:
 background:#f5f9ea;
+
+
+https://www.w3schools.com/howto/howto_css_image_overlay_slide.asp
