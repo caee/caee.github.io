@@ -12,7 +12,7 @@
 
 window.SITE = {
   name: "Carl Emil Elling",
-  title: "B.Sc. Physics- and Electrical Engineer",
+  title: "M.Sc. Electronics Engineer | B.Sc. Physics- and Electrical Engineer",
   photo: "assets/img/profile.jpg",
 
   contact: {
@@ -242,8 +242,38 @@ window.SITE = {
 
   /* ----------------------------------------------------------- PROJECTS */
   // "id" is used in the URL (#projects/<id>) so keep it short, lowercase, no spaces.
-  // media items: { image, caption } or { youtube: "<video id>", caption }
+  // media items: { image, caption }, { youtube: "<video id>", caption }
+  //           or { video: "file.mp4", poster: "still.jpg", caption }  (video must be .mp4)
   projects: [
+    {
+      id: "pl-inspection",
+      title: "Thesis: Field-ready solar panel inspection with Photoluminescence",
+      year: "2025",
+      thumb: "assets/img/projects/pl-thumb.jpg",
+      text: [
+        "Master Thesis in collaboration with DTU Electro. Here, I built, wired and coded a very novel full prototype setup for inspecting solar panels with induced photoluminescence. The project was done from scratch with very little outside help, and results were published in the EUPVSEC conference proceedings (2025 and 2026).",
+        "Advanced image processing pipelines were developed to do image capture as a line scanning method, and stitch together to a resulting image.",
+        "The project is continued in my work at Danish PV Service, where I am developing a commercial version of the setup."
+      ],
+      media: [
+        { image: "assets/img/projects/pl-render.jpg", caption: "" },
+        { image: "assets/img/projects/pl-setup-photo.jpg", caption: "" },
+        { video: "assets/img/projects/pl-scan.mp4", poster: "assets/img/projects/pl-scan-poster.jpg", caption: "" },
+        { image: "assets/img/projects/pl-scan-result.png", caption: "" }
+      ]
+    },
+    {
+      id: "lab-setup",
+      title: "Lab Setup",
+      year: "2026",
+      thumb: "assets/img/projects/inv-lab.png",
+      text: [
+        "Setting up and managing a new laboratory space for research and prototype development at DTU Risø."
+      ],
+      media: [
+        { image: "assets/img/projects/inv-lab.png", caption: "" }
+      ]
+    },
     {
       id: "cnc",
       title: "Homebuilt CNC-router",

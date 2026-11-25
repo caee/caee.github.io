@@ -144,6 +144,9 @@
       var inner = m.youtube
         ? '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/' + esc(m.youtube) +
           '" title="' + esc(p.title) + ' video" allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>'
+        : m.video
+        ? '<video src="' + esc(m.video) + '"' + (m.poster ? ' poster="' + esc(m.poster) + '"' : "") +
+          ' controls muted loop playsinline preload="metadata"></video>'
         : '<img src="' + esc(m.image) + '" alt="' + esc((m.caption || p.title).replace(/<[^>]+>/g, "")) + '" loading="lazy" data-zoom>';
       var cap = (m.caption || "") + (m.youtube ? ' <a href="https://www.youtube.com/watch?v=' + esc(m.youtube) +
         '" target="_blank" rel="noopener">Watch on YouTube ↗</a>' : "");
