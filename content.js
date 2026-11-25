@@ -88,6 +88,37 @@ window.SITE = {
   /* --------------------------------------------------------- EXPERIENCE */
   experience: [
     {
+      period: "2026–present",
+      role: "Lead Hardware Engineer",
+      org: "Danish PV Service",
+      logo: "assets/img/logos/dpvs.png",
+      text: [
+        "Lead hardware developer for spinn-off in close cooperation with both industry and academia. Develops hardware solutions for inspection, characterization and production of solar panels, as well as peripheral technology."
+      ],
+      bullets: ["Team leadership","project management","Embedded systems","hardware design", "software development","CAD modelling", "Pitching and Startup environment"]
+    },
+    {
+      period: "2020–2021",
+      role: "Development Engineer",
+      org: "CB Svendsen A/S",
+      logo: "assets/img/logos/CBS-logo.avif",
+      text: [
+        "Temporary full-time hardware engineer. Responsibility for the majority of hardware-design in CB Svendsen. On my own initiative, built a modern prototype lab, which is time-saving and cost efficient compared to old solutions in house.",
+        "I have acted as project responsible for electronics project as well as hardware support for more complex projects - using my broad skills in both electronics, mechanical and software design."
+      ],
+      bullets: ["hardware design", "software development","CAD modelling","Project management", "Pitching"]
+    },
+    {
+      period: "2018–2019",
+      role: "Co-founder",
+      org: "LærMaple",
+      logo: "assets/img/logos/laermaple.png",
+      text: [
+        "During my studies, a friend of mine and I identified problems in the teaching of Maple, a math program developed for engineering, but often used in Danish high schools. Creating an online learning tool for this, I have gained experience in:"
+      ],
+      bullets: ["Project management", "Pitching and teaching", "Online business"]
+    },
+    {
       period: "2018–2019",
       role: "Co-founder",
       org: "LærMaple",
