@@ -99,6 +99,17 @@ window.SITE = {
       bullets: ["Team leadership","project management","Embedded systems","hardware design", "software development","CAD modelling", "Pitching and Startup environment"]
     },
     {
+      period: "2025",
+      role: "Arctic Guide",
+      org: "Albatros Arctic Circle",
+      logo: "assets/img/logos/aac.png",
+      text: [
+        "Sabbatical as nature/glacier guide in Greenland. Responsibility for safety and well-being of tourists in extreme environments."
+      ],
+      bullets: ["Safety and risk management", "Team leadership", "Customer service"],
+      image: "assets/img/Banner.jpeg"
+    },
+    {
       period: "2020–2021",
       role: "Development Engineer",
       org: "CB Svendsen A/S",
@@ -109,17 +120,7 @@ window.SITE = {
       ],
       bullets: ["hardware design", "software development","CAD modelling","Project management", "Pitching"]
     },
-    {
-      period: "2025",
-      role: "Arctic Guide",
-      org: "Albatros Arctic Circle",
-      logo: "assets/img/logos/aac.png",
-      text: [
-        "Sabbatical as nature/glacier guide in Greenland. Responsibility for safety and well-being of tourists in extreme environments."
-      ],
-      bullets: ["Safety and risk management", "Team leadership", "Customer service"]
     
-    },
     {
       period: "2018–2019",
       role: "Co-founder",

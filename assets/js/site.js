@@ -92,11 +92,14 @@
       '<div class="carousel">' +
         '<button class="arrow" data-go="' + nav(idx - 1) + '" aria-label="Previous"' + (idx === 0 ? " disabled" : "") + ">" + ICONS.left + "</button>" +
         '<article class="entry fade-in">' +
-          (it.logo ? '<div class="entry-logo"><img src="' + esc(it.logo) + '" alt="' + esc(it.org) + ' logo"></div>' : "") +
+          (it.logo ? '<div class="entry-logo"><img src="' + esc(it.logo) + '" alt="' + esc(it.org) + ' logo" onerror="this.parentNode.remove()"></div>' : "") +
           '<div class="entry-meta"><span class="when">' + esc(it.period) + '</span><span class="role">' + esc(it.role) +
           '</span><span class="org">' + esc(it.place || it.org) + "</span>" +
           (it.extra ? '<span class="extra">' + esc(it.extra) + "</span>" : "") + "</div>" +
           '<div class="prose">' + paras(it.text) + bullets(it.bullets) + "</div>" +
+          (it.image ? '<figure class="entry-image"><img src="' + esc(it.image) + '" alt="' +
+            esc((it.caption || it.role + ", " + it.org).replace(/<[^>]+>/g, "")) + '" data-zoom>' +
+            (it.caption ? "<figcaption>" + it.caption + "</figcaption>" : "") + "</figure>" : "") +
           docLinks(it.documents) +
         "</article>" +
         '<button class="arrow" data-go="' + nav(idx + 1) + '" aria-label="Next"' + (idx === items.length - 1 ? " disabled" : "") + ">" + ICONS.right + "</button>" +

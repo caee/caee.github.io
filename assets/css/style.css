@@ -204,6 +204,10 @@ img { max-width: 100%; }
 .tl button:hover { border-color: var(--box); }
 .tl button[aria-current="true"] { border-color: var(--box); background: rgba(255,255,255,.35); }
 
+.entry-image { margin: 6px 0 16px; }
+.entry-image img { display: block; width: 100%; cursor: zoom-in; }
+.entry-image figcaption { font-size: 14px; margin-top: 6px; }
+
 .docs { display: flex; flex-wrap: wrap; gap: 14px 28px; margin-top: 10px; }
 .doc-link {
   display: inline-flex; align-items: center; gap: 10px;
