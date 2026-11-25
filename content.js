@@ -31,7 +31,7 @@ window.SITE = {
   bio: {
     tagline: "Passionate and nerdy in a good way",
     text: [
-      "Electrical engineer with high personal and professional drive, and a curiosity to match it."
+      "Electrical engineer with high personal and professional drive, and a curiosity to match it.",
       "I thoroughly enjoy creating novel solutions to complex problems. Although this might sound like a cliché, it is a driving force in my life, leading me to do electronic and mechanical projects in my spare time – simply because I cannot help it. This ranges from building a CNC router for my own enjoyment to starting an amateur rocketry club during my studies.",
       "Academically, I have broad interests. My B.Sc. is a combination of both physics and electrical engineering to satisfy this curiosity, and I’ve tailored it with a heavy focus on the latter.",
       "Despite the archetypical engineering profile, connecting with people has always been a strong suit of mine. Among many other manifestations, I use it in playing the piano, which I’ve done most of my life, accompanying singers, bands and arranging concerts. Apart from socially, I benefit from it in most other contexts, and can deliver a serious and constructive opinion with a smile."
