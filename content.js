@@ -34,7 +34,8 @@ window.SITE = {
       "Electrical engineer with high personal and professional drive, and a curiosity to match it.",
       "I thoroughly enjoy creating novel solutions to complex problems. Although this might sound like a cliché, it is a driving force in my life, leading me to do electronic and mechanical projects in my spare time – simply because I cannot help it. This ranges from building a CNC router for my own enjoyment to starting an amateur rocketry club during my studies.",
       "Academically, I have broad interests. My B.Sc. is a combination of both physics and electrical engineering to satisfy this curiosity, and I’ve tailored it with a heavy focus on the latter.",
-      "Despite the archetypical engineering profile, connecting with people has always been a strong suit of mine. Among many other manifestations, I use it in playing the piano, which I’ve done most of my life, accompanying singers, bands and arranging concerts. Apart from socially, I benefit from it in most other contexts, and can deliver a serious and constructive opinion with a smile."
+      "My M.Sc. is in electrioics engineering, a field I have been passionate about for many years. I have a strong interest in hardware design, and I enjoy the process of taking a concept from idea to prototype.",
+      "Despite the archetypical engineering profile, connecting with people has always been a strong suit of mine. Among many other manifestations, I use it in playing the piano, which I’ve done most of my life, accompanying singers, bands and arranging concerts. I am an outdoor enthusiast, and have even worked professionally as a guide in the harsh climate of the Greenlandic west coast, keeping people safe and accommodating their needs. I benefit from my interpersonal skills in most other contexts, and can deliver a serious and constructive opinion with a smile."
     ]
   },
 
@@ -52,7 +53,7 @@ window.SITE = {
         "Thesis on development of diagnostic imaging system for field-inspection of solar panels with photoluminescence."
       ],
       documents: [
-        { label: "Courses & grades", href: "assets/docs/grades.pdf" }
+        { label: "Courses & grades", href: "assets/docs/master-of-science-in-engineering.pdf" }
       ]
     },
     {
@@ -109,14 +110,15 @@ window.SITE = {
       bullets: ["hardware design", "software development","CAD modelling","Project management", "Pitching"]
     },
     {
-      period: "2018–2019",
-      role: "Co-founder",
-      org: "LærMaple",
-      logo: "assets/img/logos/laermaple.png",
+      period: "2025",
+      role: "Arctic Guide",
+      org: "Albatros Arctic Circle",
+      logo: "assets/img/logos/aac.png",
       text: [
-        "During my studies, a friend of mine and I identified problems in the teaching of Maple, a math program developed for engineering, but often used in Danish high schools. Creating an online learning tool for this, I have gained experience in:"
+        "Sabbatical as nature/glacier guide in Greenland. Responsibility for safety and well-being of tourists in extreme environments."
       ],
-      bullets: ["Project management", "Pitching and teaching", "Online business"]
+      bullets: ["Safety and risk management", "Team leadership", "Customer service"]
+    
     },
     {
       period: "2018–2019",
@@ -179,7 +181,6 @@ window.SITE = {
       bullets: [
         "How to explain difficult concepts in order to teach them.",
         "Channeling my excitement for a subject into others.",
-        "The basics of project management."
       ]
     }
   ],
@@ -191,14 +192,17 @@ window.SITE = {
     {
       name: "Hard Skills",
       items: [
-        { name: "Prototyping", level: 5 },
-        { name: "Brain-Computer Interfacing", level: 5 },
+        { name: "Hardware Prototyping", level: 5 },
+        { name: "PCB design", level: 4 },
+        { name: "PCB assembly (hand solder and reflow)", level: 4 },
         { name: "Solidworks & CAD", level: 4 },
-        { name: "Deep Learning w/ TensorFlow", level: 4 },
-        { name: "Biosensing", level: 4 },
+        { name: "Brain-Computer Interfacing", level: 4 },
+        { name: "Deep Learning and neural networks w/ TensorFlow", level: 3 },
+        { name: "Biosensors", level: 4 },
         { name: "Sensor technology", level: 3 },
-        { name: "Analog circuit design", level: 3 },
-        { name: "Image Analysis", level: 3 },
+        { name: "Analog circuit design", level: 4 },
+        { name: "Digital circuit design", level: 3 },
+        { name: "Image Analysis", level: 4 },
         { name: "Signal Processing", level: 3 },
         { name: "Systems Control", level: 2 }
       ]
@@ -206,9 +210,9 @@ window.SITE = {
     {
       name: "Programming Skills",
       items: [
+        { name: "Python", level: 5 },
         { name: "MATLAB", level: 5 },
-        { name: "Python", level: 4 },
-        { name: "Arduino", level: 3 },
+        { name: "Arduino-style C++", level: 3 },
         { name: "Embedded Programming in C", level: 3 },
         { name: "HTML & CSS", level: 3 },
         { name: "Processing", level: 2 }
@@ -217,25 +221,23 @@ window.SITE = {
     {
       name: "Soft Skills",
       tags: [
-        { name: "Curious!", highlight: true },
-        { name: "Determined" },
-        { name: "Quick Learner", highlight: true },
-        { name: "Creative" },
-        { name: "Innovative", highlight: true },
-        { name: "Thorough" },
-        { name: "Problem-solver", highlight: true },
-        { name: "Easy to get along with" },
-        { name: "Independent" },
-        { name: "Loyal" },
-        { name: "Great work-ethic" },
-        { name: "Communicative" },
-        { name: "Cooperative" },
-        { name: "Good verbal skills" }
+        { name: "Analytical problem-solving", highlight: true },
+        { name: "Fast learner", highlight: true },
+        { name: "Innovation & creativity", highlight: true },
+        { name: "Intellectual curiosity", highlight: true },
+        { name: "Team leadership" },
+        { name: "Project management" },
+        { name: "Clear technical communication" },
+        { name: "Cross-disciplinary collaboration" },
+        { name: "Stakeholder engagement" },
+        { name: "Thorough & quality-minded" },
+        { name: "Independent & self-driven" },
+        { name: "Strong work ethic" }
       ],
       note: [
-        "In bold are the most prominent adjectives I define myself by.",
-        "Just as some flour and sugar is not a cake, listing skills in well-defined boxes does not a person describe, however nice and organized it may be.",
-        "Contact me if you want a more complete picture of me as a person!"
+        "Highlighted are the qualities I rely on most.",
+        "They have been shaped by leading hardware projects from concept to field test, co-founding a start-up, working closely with both industry and academia, and years of mentoring and supporting others.",
+        "Skills in boxes only tell part of the story – I’m always happy to elaborate in person."
       ]
     }
   ],

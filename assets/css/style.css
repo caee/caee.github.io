@@ -230,7 +230,7 @@ img { max-width: 100%; }
 .level i { width: 12px; height: 12px; border: 1px solid var(--navy); }
 .level i.on { background: var(--navy); }
 
-.soft { display: grid; grid-template-columns: minmax(0, 330px) minmax(0, 1fr); gap: 24px; }
+.soft { display: grid; grid-template-columns: minmax(0, 470px) minmax(0, 1fr); gap: 28px; }
 /* two columns, filled top-to-bottom like the original */
 .tag-grid { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 34px; }
 .tag-grid li { border: 2px solid var(--box); padding: 2px 8px; font-size: 15px; margin-bottom: 14px; break-inside: avoid; }
